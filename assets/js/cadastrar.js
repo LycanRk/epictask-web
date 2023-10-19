@@ -3,9 +3,11 @@ document.querySelector("#botao-cadastrar").addEventListener("click", () => {
 
 
     const tarefa = {
+        id: Date.now(),
         titulo: document.querySelector("#titulo").value,
         descricao: document.querySelector("#descricao").value,
-        pontos: document.querySelector("#pontos").value
+        pontos: document.querySelector("#pontos").value,
+        concluida: false
     }
 
     tarefas.push(tarefa)
