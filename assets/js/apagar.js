@@ -18,5 +18,7 @@ function apagar(id) {
 
     atualizar()
 
+    calcularEstatisticas()
+
 }
 
