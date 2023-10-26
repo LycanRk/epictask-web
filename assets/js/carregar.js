@@ -30,4 +30,6 @@ function criarCard(tarefa) {
     console.log(card)
 
     document.querySelector("#lista-tarefas").appendChild(card)
+
+
 }
